@@ -1,0 +1,60 @@
+.VO--BOX {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.top--image {
+  position: relative;
+}
+.timer {
+  position: absolute;
+  top: 170px;
+  right: 4px;
+  padding: 4px;
+  background-color: black;
+  color: #fff;
+}
+
+.bottom--detail {
+  display: flex;
+  width: 350px;
+  position: relative;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.profile--bottom {
+  margin-left: 10px;
+}
+
+.more--details {
+  /* margin-left: 10px; */
+}
+
+.title--bottom {
+  font-size: 18px;
+  color: #111;
+  font-weight: 600;
+}
+
+.channel-name--bottom {
+  font-size: 14px;
+  color: #222;
+  font-weight: 500;
+}
+
+.vat--details {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 3px;
+  padding: 1px;
+  font-size: 10px;
+  color: #333;
+  font-weight: 400;
+}
+
+.menu--object {
+  position: absolute;
+  right: -30px;
+}
